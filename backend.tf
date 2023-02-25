@@ -5,7 +5,7 @@
 # For more information, see https://www.terraform.io/docs/backends/types/remote.html
 terraform {
   backend "remote" {
-    organization = "la-casa-del-tonio"
+    organization = "example-org-593d3e"
 
     workspaces {
       name = "cloud-iac-with-tonio"
