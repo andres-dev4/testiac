@@ -1,14 +1,5 @@
-terraform {
-  required_providers {
-    aws = aws.west
-  }
-  required_version = ">= 1.2.0"
-}
-
-provider "aws" {
-  region = "us-east-1"
-
-}
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
 
 resource "aws_instance" "app_server" {
   ami           = "ami-0dfcb1ef8550277af"
