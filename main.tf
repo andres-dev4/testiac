@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    aws = aws_
+    aws = aws.west
   }
   required_version = ">= 1.2.0"
 }
